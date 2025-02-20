@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap');
+
+body {
+
+    cursor: auto; /* Ensure no conflicting cursor styles */
+
+    font-family: 'Roboto', sans-serif;
+    width: 220px;
+    text-align: center;
+}
+
+.cursor-container {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.cursor-option {
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+    border: 2px solid transparent;
+    transition: 0.3s;
+}
+
+.cursor-option:hover {
+    border-color: blue;
+}
+
+button {
+    margin-top: 10px;
+    padding: 5px 10px;
+    cursor: pointer;
+}
